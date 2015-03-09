@@ -92,9 +92,9 @@ section.leftside {
 section.rightside {
   height: 25em;
   width: 50%;
-  float: right;
   margin: auto;
   display: inline-block;
+  position: absolute; /* Prevents from moving to next line! */
 }
 
 section.leftside h4, section.rightside h4 {
