@@ -1,97 +1,14 @@
 
-/*        -----Notes-----
-
-Color Hex Used: "Of the Ground" on Color-hex.com
-
-http://www.color-hex.com/color-palette/5479
-
-/*        -----General-----        */
-
-body {
-  background-color: #8e8f77;
-}
-
-* {
-  border: 1px solid transparent;
-  font-family: arial;
-} /* Gives structure to frames so they do not collide. */
-
-/*        -----Personal Info-----        */
-
-.name-occupation {
-  float: left;
-  margin-top: 10px;
-  margin-left: 55px;
-  text-decoration: none;
-}
-
-.full-name {
-  color: #214e34;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  margin-left: -3px;
-}
-
-.occupation {
-  color: #214e34;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
-
-/*        -----Social Icons-----        */
-
-.icons {
-  float: right;
-  margin-top: 30px;
-  margin-right: 25px;
-}
-
-.icons img {
-  max-width: 30px;
-}
-
-/*        -----Titles-----        */
-
-h1 {
-  border: 1px solid transparent;
-  color: #214e34;
-  float: center;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-bottom: 10px;
-  margin-top: 75px;
-  text-align: center;
-}
-
-h4 {
-  color: #575a4b;
-  margin-bottom: 5px;
-  margin-left: 30px;
-  margin-top: 5px;
-  text-align: left;
-}
-
 /*        -----Blog Post-----        */
 
-section {
-  background-color: #f5f9e9;
+.blog {
   border-radius: 75px 0 75px 0;
-  color: #5b8c5a;
-  margin: 25px;
-  margin-top: 150px;
+  margin: -25px 25px 25px 25px;
+  padding-bottom: 5px;
 }
 
-section p {
-  margin-left: 40px;
-  margin-right: 40px;
-  text-align: justify;
-}
-
-section li {
-  margin-left: 20px;
-  margin-right: 40px;
+section.blog p {
+  margin: 25px 50px;
   text-align: justify;
 }
 
@@ -100,8 +17,8 @@ section li {
   float: left;
   font-size: 1em;
   font-weight: bolder;
-  margin-left: 30px; /* 30px instead of 50 because of text-indent on h4 */
-  margin-top: 35px;
+  margin-left: 50px;
+  margin-top: 15px;
   text-align: left;
 }
 
@@ -111,6 +28,28 @@ section li {
   font-weight: bolder;
   font-size: 1em;
   margin-right: 50px;
-  margin-top: 35px;
+  margin-top: 15px;
   text-align: right;
 }
+
+/*        -----Titles-----        */
+
+.blog-title {
+  border: 1px solid transparent;
+  color: #214e34;
+  float: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+h4 {
+  color: #575a4b;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: left;
+  padding-left: 20px;
+}
+
