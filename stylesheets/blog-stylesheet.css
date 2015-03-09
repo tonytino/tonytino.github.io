@@ -32,6 +32,10 @@ section.blog p {
   text-align: right;
 }
 
+section.blog img {
+  margin-left: 25px;
+}
+
 /*        -----Titles-----        */
 
 .blog-title {

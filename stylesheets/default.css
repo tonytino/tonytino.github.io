@@ -121,6 +121,12 @@ section ol li a {
   font-size: 1em;
 }
 
+section.blog li {
+  padding-left: 1em;
+  text-align: justify;
+  padding-right: 3em;
+}
+
 footer {
   text-align: center;
 }
