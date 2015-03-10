@@ -3,8 +3,8 @@
 
 .blog {
   border-radius: 75px 0 75px 0;
-  margin: -25px 25px 25px 25px;
-  padding-bottom: 5px;
+  margin: auto 2em;
+  padding-bottom: 0.5em;
 }
 
 section.blog p {
