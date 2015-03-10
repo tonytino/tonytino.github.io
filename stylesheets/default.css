@@ -139,13 +139,16 @@ section div {
   padding-bottom: 1em;
 }
 
+/*
 section div.projectOn {
   margin-right: -20%;
 }
 
+            Removed due to creating spacing issue.
+
 section div.projectOff {
   margin-left: -20%;
-}
+}  */
 
 section div a {
   text-decoration: none;
