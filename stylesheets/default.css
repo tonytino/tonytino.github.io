@@ -85,18 +85,21 @@ nav a:hover {
 /* = = = Column Formatting = = = */
 
 section.leftside {
-  height: 32em; /* If issue below requiring `position: absolute;` can be resolved so that it can be discarded, change to `height:auto;` */
-  width: 50%;
+  height: auto;
+  min-height: 25em;
+  width: 40%;
   margin: auto;
-  display: inline-block;
+  float: left;
+  padding-left: 10%;
 }
 
 section.rightside {
-  height: 32em; /* If issue below requiring `position: absolute;` can be resolved so that it can be discarded, change to `height:auto;` */
-  width: 50%;
+  height: auto;
+  min-height: 25em;
+  width: 40%;
   margin: auto;
-  display: inline-block;
-  position: absolute; /* Prevents from moving to next line! */
+  float: left; /* Float left to prevent space in-between left column and right column. Appears after leftside because it's secondary in the order. */
+  padding-right: 10%;
 }
 
 section.leftside h4, section.rightside h4 {
@@ -166,4 +169,5 @@ footer {
   color: #f5f9e9;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  clear: both;
 }
