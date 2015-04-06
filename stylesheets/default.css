@@ -86,7 +86,7 @@ nav a:hover {
 
 section.leftside {
   height: auto;
-  min-height: 30em;
+  min-height: 32em;
   width: 40%;
   margin: auto;
   float: left;
@@ -95,7 +95,7 @@ section.leftside {
 
 section.rightside {
   height: auto;
-  min-height: 30em;
+  min-height: 32em;
   width: 40%;
   margin: auto;
   float: left; /* Float left to prevent space in-between left column and right column. Appears after leftside because it's secondary in the order. */
