@@ -34,6 +34,7 @@ section.blog p {
 
 section.blog img {
   margin-left: 25px;
+  margin-bottom: -3em;
   max-width: 35em;
   text-align: center;
 }
