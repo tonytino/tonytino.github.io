@@ -2,7 +2,7 @@
 /*        -----Blog Post-----        */
 
 .blog {
-  border-radius: 75px 0 75px 0;
+  /* border-radius: 75px 0 75px 0; removed this - i don't like it anymore :( */
   margin: auto 2em;
   padding-bottom: 0.5em;
 }
