@@ -3,6 +3,7 @@
 /* use 200%, 150%, 112.5% and 100% for font sizes (h1, h2, h3, body) */
 
 * {
+  text-decoration: none;
 }
 
 body {
@@ -39,6 +40,15 @@ section {
   min-width: 500px;
   background-color: #EFECCA;
   padding: 5px 20px 5px 20px;
+}
+
+#music {
+  text-align: center;
+  letter-spacing: 1px;
+  color: #002F2F;
+  text-decoration: none;
+  font-size: 67%;
+  text-transform: uppercase;
 }
 
 #first {
@@ -89,4 +99,13 @@ footer {
   height: 30px;
   background-color: #002F2F;
   color: #EFECCA;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #EFECCA;
+}
+
+footer p a:hover {
+  color: #A7A37E;
 }
