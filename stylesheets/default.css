@@ -111,6 +111,8 @@ section.leftside h4, section.rightside h4 {
 section.leftside img, section.rightside img {
   max-width: 250px;
   max-height: 250px;
+  min-width: 250px;
+  min-height: 250px;
 }
 
 section.leftside ol, section.rightside ol {
