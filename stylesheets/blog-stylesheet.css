@@ -39,6 +39,12 @@ section.blog img {
   text-align: center;
 }
 
+section.blog a img {
+  margin-left: 10%;
+  margin-bottom: 1em;
+  max-width: 15em;
+}
+
 code {
   background-color: #d2d2d2;
 }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+  <head>
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+  <title>TonyTino | Postings</title>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <section class="name">
+
+        <h1>
+          Anthony Hernandez<br>
+          Software Engineer
+        </h1>
+
+      </section>
+
+      <section class="icons">
+
+        <a href="https://twitter.com/tonytino139"><img src="../imgs/twitter.png" alt="Twitter"/></a>
+
+        <a href="https://github.com/tonytino"><img src="../imgs/github.png" alt="GitHub"/></a>
+
+        <a href="https://linkedin.com/in/ahernandez91"><img src="../imgs/linkedin.png" alt="LinkedIn"/></a>
+
+        <a href="mailto:tony91139@gmail.com" class="icons"><img src="../imgs/email.png" alt="Email Me"/></a>
+
+      </section>
+
+    </header>
+
+    <nav>
+
+      <a href="../index.html">My Portfolio</a>
+
+      <a href="../blog-index.html">My Blog</a>
+
+      <a href="../index.html">About Me</a>
+
+      <a href="../index.html">Contact Me</a>
+
+    </nav>
+
+    <section class="blog">
+
+      <h4 class="blog-date">April 18, 2015</h4>
+      <h4 class="blog-number">Post #14</h4>
+      <h1 class="blog-title">Active Record: A Diamond in the Rough</h1>
+
+      <h4>Active Record: What Is It?</h4>
+      <p>
+          In essence, Active Record is the gem (in case you don't know already, Rails is essentially comprised of seven Ruby gems that work in sync with each other) that is responsible for anything related to databases, something that is also known as an ORM (we'll come back to that). Active Record handles tasks like building, managing, organizing, and retrieving data for you, all of which is stored within a database that Active Record is responsible for (rather than you being the one writing out all of the code/logic). I'm sure you want some examples of when this is necessary: posting content on social media sites, logging into your account (which you expect to have information about you already stored in), going through a multi-step purchase process, etc. But wait, I said I was going to come back to ORM (Object-Relational-Mapping). Active Record essentially changes data in a database (which it communicates with using SQL statements that you're not writing - thank goodness) into an object-like format that Ruby can interact with. Further, Active Record knows how to communicate with various database types (sqlite, mySQL, etc.), and will adjust appropriately for you (assuming you set up everything properly), without you having to rewrite anything significant about your application should you decide to change databases (there likely will be some necessary changes to configuration files).
+      </p>
+
+      <h4>Example, Please.</h4>
+
+      <p>
+          Imagine that you want an array instantaneously created that has all of the addresses of your customers (nothing else about them is important, you just want to see your global footprint). Well, if you didn't have Active Record, you would have to connect to your database, write out the SQL code (a query) that goes into your database and retrieves this information (rather simple, sure, but imagine if there were many more factors to consider...), and convert and store the information returned into an array. Instead, you can just call one Active Record command (something like Customers.address.all), which will return the information you desire in an array ready to be interacted with. Again, remember, this is a very simple example, but imagine how difficult and complex these things can become when working with large databases and very specific requests. Trust me, Active Record is a contributing reason as to why Rails is so popular.<br><br>
+
+          For more information, check out either <a href="http://www.teamtreehouse.com" target="_blank">Treehouse</a>, an online education platform for web development (my personal favorite - I'm a happy customer, not a representative) or this introduction provided by <a href="http://www.theodinproject.com/ruby-on-rails/active-record-basics" target="_blank">The Odin Project</a>. Click the image below for a discount at Treehouse through me. :)
+      </p>
+
+      <a href="http://referrals.trhou.se/anthonyhernandez3" target="_blank"><img src="http://wac.a8b5.edgecastcdn.net/80A8B5/static-assets/assets/content/referral-badge-grn.png"/></a>
+
+    </section>
+
+    <footer>
+
+      <p>Copyright 2015 &copy;</p>
+
+    </footer>
+
+  </body>
+
+</html>
