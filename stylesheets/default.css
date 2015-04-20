@@ -115,7 +115,9 @@ section.leftside img, section.rightside img {
   min-height: 250px;
 }
 
-section.leftside a
+section.leftside img.treehouse {
+  max-width: 50px;
+}
 
 section.leftside ol, section.rightside ol {
   margin: 10%;
