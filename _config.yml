@@ -1,0 +1,12 @@
+# Site settings
+title: TonyTino's House
+email: tony91139@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This website is TonyTino's House of Awesomeness, including blog posts, contact details, and monkey business.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://tonytino.github.io" # the base hostname & protocol for your site
+twitter_username: tonytino139
+github_username:  tonytino
+
+# Build settings
+markdown: kramdown

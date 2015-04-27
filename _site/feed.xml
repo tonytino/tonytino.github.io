@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TonyTino&#39;s House</title>
+    <description>This website is TonyTino&#39;s House of Awesomeness, including blog posts, contact details, and monkey business.
+</description>
+    <link>http://tonytino.github.io/</link>
+    <atom:link href="http://tonytino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 26 Apr 2015 20:50:20 -0700</pubDate>
+    <lastBuildDate>Sun, 26 Apr 2015 20:50:20 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>I&#39;ve Had My Hand Up for 30 Mins!</title>
+        <description>&lt;h3 id=&quot;why-no-one-answered-your-question&quot;&gt;Why No One Answered Your Question&lt;/h3&gt;
+
+&lt;p&gt;If you’ve ever been asked a question and didn’t know where to start, what was being asked, or even what the topic was (even if it was in regards to something you’re familiar with), it’s probably because the question was not asked properly. A question’s context and phrasing are critical to the person being asked, particularly if they’re not working on the same thing as you are. You have to give details like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What are you trying to accomplish?&lt;/li&gt;
+  &lt;li&gt;Where did you run into your first issue?&lt;/li&gt;
+  &lt;li&gt;What have to tried to resolve your issue?&lt;/li&gt;
+  &lt;li&gt;Is this the only means of implementing what you’re trying to accomplish?&lt;/li&gt;
+  &lt;li&gt;What have you done so far (many times, showing your work is critical)?&lt;/li&gt;
+  &lt;li&gt;What limitations are you facing? Are there things that you can or cannot do based on the instructions you were given?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list can go on and on, but the idea is that any question that requires a well-thought out response or solution also requires a lot of consideration when being asked. Imagine telling someone that you need them to buy you milk. They get to the store and see all of the different options (fat free, whole, 1%, etc.) and have no idea which is the correct one, especially when considering all of the different brands and types (organic, anybody?). When you give someone a request, it is important for you to be specific and detailed because they may not know what you know. Just the same, when asking someone a question (a request for guidance and/or assistance), you need to be detailed and specific.&lt;/p&gt;
+
+&lt;h3 id=&quot;but-wait-no-one-ever-tries-to-help-me&quot;&gt;But Wait… No One Ever Tries to Help Me&lt;/h3&gt;
+
+&lt;p&gt;If you’re known for asking bad questions, this may be exactly why. It is difficult to help someone how does not ask good questions, and this usually results in no one having the answers you need. You will either become frustrated because no one is answering correctly or they will become impatient because you’re not giving them what they need to help you. Either way, it’s important to always make it easy for people to help you because they’re the ones doing you a favor - don’t make it a uphill battle for them!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://tonytino.github.io/cultural/2015/04/25/questions.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/cultural/2015/04/25/questions.html</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 24 Apr 2015 01:34:22 -0700</pubDate>
+        <link>http://tonytino.github.io/jekyll/update/2015/04/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/jekyll/update/2015/04/24/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Monkey Town!</title>
+        <description>&lt;p&gt;This is monkey business.&lt;/p&gt;
+
+&lt;p&gt;And business is booming…&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;business_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Bananas&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;monkey&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; bananas are for monkeys&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://monkey.com&quot;&gt;monkey docs&lt;/a&gt; for more info on how to get the most out of bananas. Monkey can be reached at: &lt;a href=&quot;http://tonytino.github.io&quot;&gt;monkey contact&lt;/a&gt;. If you have bananas, you can send them to &lt;a href=&quot;http://tonytino.github.io&quot;&gt;monkey’s business address&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 24 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://tonytino.github.io/monkey/2015/04/24/testing.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/monkey/2015/04/24/testing.html</guid>
+        
+        
+        <category>monkey</category>
+        
+      </item>
+    
+      <item>
+        <title>Active Record: A Diamond in the Rough</title>
+        <description>&lt;h3 id=&quot;active-record-what-is-it&quot;&gt;Active Record: What Is It?&lt;/h3&gt;
+
+&lt;p&gt;In essence, Active Record is the gem (in case you don’t know already, Rails is essentially comprised of seven Ruby gems that work in sync with each other) that is responsible for anything related to databases, something that is also known as an ORM (we’ll come back to that). Active Record handles tasks like building, managing, organizing, and retrieving data for you, all of which is stored within a database that Active Record is responsible for (rather than you being the one writing out all of the code/logic). I’m sure you want some examples of when this is necessary: posting content on social media sites, logging into your account (which you expect to have information about you already stored in), going through a multi-step purchase process, etc. But wait, I said I was going to come back to ORM (Object-Relational-Mapping). Active Record essentially changes data in a database (which it communicates with using SQL statements that you’re not writing - thank goodness) into an object-like format that Ruby can interact with. Further, Active Record knows how to communicate with various database types (sqlite, mySQL, etc.), and will adjust appropriately for you (assuming you set up everything properly), without you having to rewrite anything significant about your application should you decide to change databases (there likely will be some necessary changes to configuration files).&lt;/p&gt;
+
+&lt;h3 id=&quot;example-please&quot;&gt;Example, Please.&lt;/h3&gt;
+
+&lt;p&gt;Imagine that you want an array instantaneously created that has all of the addresses of your customers (nothing else about them is important, you just want to see your global footprint). Well, if you didn’t have Active Record, you would have to connect to your database, write out the SQL code (a query) that goes into your database and retrieves this information (rather simple, sure, but imagine if there were many more factors to consider…), and convert and store the information returned into an array. Instead, you can just call one Active Record command (something like Customers.address.all), which will return the information you desire in an array ready to be interacted with. Again, remember, this is a very simple example, but imagine how difficult and complex these things can become when working with large databases and very specific requests. Trust me, Active Record is a contributing reason as to why Rails is so popular.&lt;/p&gt;
+
+&lt;p&gt;For more information, check out either &lt;a href=&quot;http://www.teamtreehouse.com&quot;&gt;Treehouse&lt;/a&gt; an online education platform for web development (my personal favorite - I’m a happy customer, not a representative) or this introduction provided by &lt;a href=&quot;http://www.theodinproject.com/ruby-on-rails/active-record-basics&quot;&gt;The Odin Project&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Click &lt;a href=&quot;http://referrals.trhou.se/anthonyhernandez3&quot;&gt;here&lt;/a&gt; for a discount at Treehouse through me. :)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://tonytino.github.io/technical/2015/04/18/tech.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/technical/2015/04/18/tech.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby and JS: Like Mac and Windows</title>
+        <description>&lt;h3 id=&quot;loops-and-hula-hoops&quot;&gt;Loops and Hula Hoops&lt;/h3&gt;
+
+&lt;p&gt;One of the first things you’ll notice about Ruby is how symantically it reads when it comes to looping. Part of this comes down to its wonderful syntax, but also, part of it is the public methods readily available that make things like iteration and looping a breeze (and intuitive). But let’s be fair here, Javascript has some built-in loops too, like #.map. The issue is Javascript’s readily-available loops are limited (we’re talking like 10-20% or what Ruby offers; who knows though, maybe I’m biased). Further, writing a loop from scratch requires a lot more work than Ruby, which means you’ll be spending more time building tools that you need, rather than using tools you already have so that you can get more done in less time.&lt;/p&gt;
+
+&lt;p&gt;Beware: Here comes a rant for some entertainment; we’ll get back on track afterwards. Let’s look at the dynamic that exists here. I mean, Javascript has to be popular for some reason right? Just like Windows? I love Windows, everyone does, that’s why everyone uses them (some mild sarcasm here, because I really do use Windows often too). The reality is (in my humble opinion…) Javascript is the widely-utilized language thanks to its domination over the web-browsing space, and getting everyone to change to the language that makes more sense and looks better isn’t as easy as sending an e-mail to everyone. This is the same issue that exists between Mac and Windows, Mac does things really, really well, and looks great at the same time, but most things are made for Windows (particularly within the business realm) because a majority of everyone has Windows. However, over the years, we’ve seen their control of the market diminish as more people have embraced Macs, and just the same, Ruby is gaining more tracton every day. It only a matter of time, folks…&lt;/p&gt;
+
+&lt;h3 id=&quot;wait-what-about-the-loops&quot;&gt;Wait… What about the loops?&lt;/h3&gt;
+
+&lt;p&gt;Okay… let’s get back on track here. We’ll start by comparing the implementation of map iterations on Arrays in both Ruby and Javascript for a visual, side-by-side comparison. As you will see by the code examples provided below (output is after examples), the methods of implementation are actually very similar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/ruby-map-example.png&quot; alt=&quot;ruby map example&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/javascript-map-example.png&quot; alt=&quot;javascript map example&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/output-loop-example.png&quot; alt=&quot;output for loop examples&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-key-differences-youll-notice-are&quot;&gt;The key differences you’ll notice are:&lt;/h4&gt;
+
+&lt;p&gt;Javascript requires parentheses around the if/else if conditions.
+Javascript requires that you declare things like var for the array and function for the loop.
+While not absolutely necessary, for consistency and reliability purposes, the use of a === in Javascript is recommended versus ==. However, either would work in this particular instance.
+Javascript does not offer string interpolation (see the else statement for Ruby), and therefore, concatenation is necessary.&lt;/p&gt;
+
+&lt;p&gt;Believe me when I say this is just scratching the surface, and we used an iteration method that Javascript just so happens to offer. Otherwise, we’d have to write the function ourselves (example below; same output as before). Once you get past the fact that Javascript isn’t the most convenient language to write in, it’s really not that bad (or, is it?).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/javascript-loop-example.png&quot; alt=&quot;javascript loop example&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://tonytino.github.io/technical/2015/04/11/JavaScript.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/technical/2015/04/11/JavaScript.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Class Methods: Not to be Confused with Instance Methods</title>
+        <description>&lt;h3 id=&quot;what-are-class-methods&quot;&gt;What are class methods?&lt;/h3&gt;
+
+&lt;p&gt;In case you’re not familiar with classes, they are used in Ruby to create objects. These objects typically need to have methods (i.e. functions) associated with them, but more importantly, they serve as a type of template. Say you’re creating a class that will represent a bouncy ball (named BouncyBall) in a video game that you’re making. You know your game will have various bouncy balls, and they will have many similar characteristics (each will have a size, color, pattern, and/or level of bounciness). However, these balls will not be identical. This is where classes come into play. They allow you to create multiple instances of BouncyBall: each will have the same characteristics, but each one will be slightly different from the next.&lt;/p&gt;
+
+&lt;p&gt;Now that we have that covered, let’s get into class methods. Class methods are the defined functions of the class itself (in this case, BouncyBall) - this is entirely different from instance methods. Instance methods are the defined functions of the instances of a class. To be clear, both classes and their instances are objects. Now, let’s look an some more examples to explain how class methods and instance methods are different.&lt;/p&gt;
+
+&lt;p&gt;Let’s say there are two instances of your class, BouncyBall: the red BouncyBall (named red, since it’s color is red) has a level of bounciness equal to 5, and the blue BouncyBall (named blue…) has a level of bounciness equal to 3. This means nothing without some more context. Let’s say each instance of BouncyBall has an instance method called &lt;em&gt;launch&lt;/em&gt;. Launch will cause the ball to go up 5 feet into the air on its own (just go with it), and when it comes back down, it will bounce x times, where x is represented by the ball’s level of bounciness. So, if we call the method &lt;em&gt;launch&lt;/em&gt; on both instances of our BouncyBall class (red and blue), they will both bounce x times (red will bounce 5 times, blue 3 times).&lt;/p&gt;
+
+&lt;p&gt;The moment you’ve been waiting for (and why I explained everything above): why do we need a class method? Let’s say you want to know which instance of your class, BouncyBall, has the highest level of bounciess. We can use a class method called &lt;em&gt;bounciest&lt;/em&gt; to determine so, which will look at as many instances of your class, BouncyBall, as you request and tell you which has the highest level of bounciness. Defining a method like this on a specific instance of BouncyBall could not tell you this as that instance of BouncyBall does not know the level of bounciness of other BouncyBall instances. However, calling it on the class, BouncyBall, makes this possible, because the instances are the “children” of the class, BouncyBall.&lt;/p&gt;
+
+&lt;h3 id=&quot;when-and-how-should-you-use-them&quot;&gt;When and how should you use them?&lt;/h3&gt;
+
+&lt;p&gt;When you should class methods is slightly touched on at the end of the paragraph above. You want to use class methods when the method that you’re performing is something that either affects or is based on all (or specific) instances of such class.&lt;/p&gt;
+
+&lt;p&gt;But now you may want to know, how exactly do we write class methods? It’s very similar to instance methods in that they are defined within the class itself, but rather than writing something like:&lt;/p&gt;
+
+&lt;p&gt;def launch # our instance method example&lt;/p&gt;
+
+&lt;p&gt;You would write a class method something like:&lt;/p&gt;
+
+&lt;p&gt;def BouncyBall.bounciest(*balls) # our class method example&lt;/p&gt;
+
+&lt;p&gt;This means that whenever we want to call on this method, rather than doing it like we would with instance methods…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;red.launch # this would perform the launch function on the red BouncyBall&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;…we call the method on the class.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;BouncyBall.bounciest(red, blue) # this would tell use which ball, red or blue, has the highest level of bounciness&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 05 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://tonytino.github.io/technical/2015/04/05/oop-concepts.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/technical/2015/04/05/oop-concepts.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating Classes in Ruby: It&#39;s Music to My Ears</title>
+        <description>&lt;h3 id=&quot;when-why-and-how&quot;&gt;When, Why, and How&lt;/h3&gt;
+
+&lt;p&gt;If there’s one thing that everyone loves, it’s music. Could you imagine a world without it? What about a world without a means to play your favorite music? Imagine if we were all still using vinyl or cassette players, and not by choice! You wouldn’t be able to quickly change songs, create a playlist, check which song is playing, or randomize the order by which your music is playing! Luckily, thanks to computers and software, this is now possible. In Ruby, there’s something called a Class, which enables us to make our own music player. Sure, it’s much more complex than the example I’m going to show you, but some of the features of a music player can be simulated rather easily using Ruby classes.&lt;/p&gt;
+
+&lt;p&gt;By creating a class in Ruby, you can quickly create objects (such as playlists) that are unique from one another, but have the same features and characteristics. For example, say you want a playlist for partying and a playlist for relaxing, two entirely different moods. Obviously, the playlists are going to have different songs, but they should have the same features and characteristics available to them (it’s not like you’re never going to want to shuffle the playlist, change the song, or announce the song name for either playlist). By creating a class that has it’s own unique methods (referred to as “instance_methods”) and variables (referred to as “instance_variables”), any object that is created as an instance of this class will have such methods and variables available to them. Any variables created for such class (such as “song_name”) will be accessible by any methods of such class, or by the object itself (say you want to know the name of the song currently playing, which exists within your playlist). Just the same, the methods of such class can utilize other methods (and variables) that exist within such class (say you have a method in the class that announces the current song playing, and you create another method that changes the song and then announes the song playing - you can have your method change the song, then call the method that announces the song playing).&lt;/p&gt;
+
+&lt;h4 id=&quot;when&quot;&gt;When:&lt;/h4&gt;
+
+&lt;p&gt;You need to create an object-type that you will likely make multiple instances of. Examples: To-do lists, phone contacts, or a game (tic-tac-toe).&lt;/p&gt;
+
+&lt;h4 id=&quot;why&quot;&gt;Why:&lt;/h4&gt;
+
+&lt;p&gt;It needs to have it’s own methods and variables that each instance of the object requires.&lt;/p&gt;
+
+&lt;h4 id=&quot;how&quot;&gt;How:&lt;/h4&gt;
+
+&lt;p&gt;Check out my example below, which shows how you can use Ruby classes to create a simple music player (albeit, it doesn’t actually play music, it just shows you the name of the song that is “playing”), which takes a playlist as it’s argument. In my example, each playlist is an instance of the class.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-awesome-music-player-maybe-it-will-play-music-one-day&quot;&gt;My Awesome Music Player (Maybe It Will Play Music One Day!)&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/music-player-code.jpg&quot; alt=&quot;music player code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a picture of the tests I created for my class. A picture of their ouput follows, but you can try testing the code for yourself if you do not believe me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/music-player-tests.jpg&quot; alt=&quot;music player tests&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/music-player-test-output.jpg&quot; alt=&quot;music player test output&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Mar 2015 00:00:00 -0700</pubDate>
+        <link>http://tonytino.github.io/technical/2015/03/29/ruby-classes.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/technical/2015/03/29/ruby-classes.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Putting Enumerables on the Map</title>
+        <description>&lt;h3 id=&quot;when-provided-a-block-of-codeh4&quot;&gt;When Provided a Block of Code&amp;lt;/h4&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;When you take an enumarable (such as a range: e.g. (1..5)) and apply the map method to it, it will take each element and apply an algorithm to it (i.e. the block of code corresponding to the map method), the results of which will be returned within an array.
+Example:
+(1..5).map {|element| element * 2} =&amp;gt; creates an array with each number from 1 through 5 doubled, such as [2,4,6,8,10]&lt;/p&gt;
+
+&lt;h3 id=&quot;when-not-provided-a-block-of-codeh4&quot;&gt;When NOT Provided a Block of Code&amp;lt;/h4&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;If you do NOT provide the enumerable a block of code when applying the map method on it, an enumerator is created instead.
+Example:
+[1,2,3].map =&amp;gt; creates the following enumerator: [1,2,3].map&lt;/p&gt;
+
+&lt;p&gt;You may be wondering what the difference is… I know I was. Essentially, you just made an object out of “[1,2,3].map”, which means you can now apply a method on such object! However, you may want to create a variable for such object to be stored in so that you can easily apply a method on the variable holding the enumerator you just created.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2015 00:00:00 -0700</pubDate>
+        <link>http://tonytino.github.io/technical/2015/03/22/enumerable-methods.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/technical/2015/03/22/enumerable-methods.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>To Hash... Or To Array...</title>
+        <description>&lt;h3 id=&quot;that-is-the-question-lets-begin-with-hash&quot;&gt;That is the question! Let’s begin with: Hash&lt;/h3&gt;
+
+&lt;h4 id=&quot;qualities-of-a-hash&quot;&gt;Qualities of A Hash:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Similar to an Array, a Hash stores objects, whether it be strings or other values.&lt;/li&gt;
+  &lt;li&gt;The information stored within a Hash is not based on any order.&lt;/li&gt;
+  &lt;li&gt;You call on the values stored within a Hash using a Key, which can be something like “hashKey” - its just a name or identifier to use for referencing.&lt;/li&gt;
+  &lt;li&gt;Because there isn’t any order to the information stored in a Hash, you cannot position items, or call on them based on their position.&lt;/li&gt;
+  &lt;li&gt;An example of when you would use a Hash could be for a program created to store birthdays. If you wanted to know when your friends birthdays’ occur, you can store them with their names as keys and their birthdays’ as values. Presume you don’t necessarily need this list in any order.&lt;/li&gt;
+  &lt;li&gt;hashName = {:hashKey =&amp;gt; “value”, :num =&amp;gt; 2.0}&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;moving-on-what-about-array&quot;&gt;Moving On! What about: Array&lt;/h3&gt;
+
+&lt;h4 id=&quot;qualities-of-an-array&quot;&gt;Qualities of An Array:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It is essentially a variable created to store additional variables (i.e. objects).&lt;/li&gt;
+  &lt;li&gt;An Array stores all of its information in order, with the order usually being based on when an object is added to it. However, the order can be amended using methods.&lt;/li&gt;
+  &lt;li&gt;Because the objects in an Array are positioned (i.e. they’re in a specific order), we can reference them using their position in the Array.&lt;/li&gt;
+  &lt;li&gt;It should be noted that the first position is [0], and the second is [1]; the last position is [-1], and the second to last is [-2]. I think you get the idea.&lt;/li&gt;
+  &lt;li&gt;An example of when you would use an Array could be for a program created to store transactions that occur daily. Your Array could be used to store a string of text for each transaction, such as: “John Doe - $5 - Bread - 10:00am”.&lt;/li&gt;
+  &lt;li&gt;arrayName = [“object”, 1.0, [2,”two”,2.0]]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-first-image-is-ruby-code-with-the-first-block-of-code-being-a-hash-the-second-being-an-array-the-following-picture-is-provided-by-the-consule&quot;&gt;The first image is Ruby code, with the first block of code being a Hash, the second being an Array. The following picture is provided by the consule.&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/hash-vs-array.png&quot; alt=&quot;hash-vs-array-example&quot; /&gt;
+&lt;img src=&quot;http://tonytino.github.io/imgs/hash-array-output.png&quot; alt=&quot;hash-array-output&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Mar 2015 00:00:00 -0700</pubDate>
+        <link>http://tonytino.github.io/technical/2015/03/15/arrays-hashes.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/technical/2015/03/15/arrays-hashes.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Display: Inline or Inline-Block?</title>
+        <description>&lt;h3 id=&quot;inline&quot;&gt;Inline&lt;/h3&gt;
+
+&lt;h4 id=&quot;inline-elements-have-the-following-qualities&quot;&gt;Inline elements have the following qualities:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Are not impacted by width or height parameters.&lt;/li&gt;
+  &lt;li&gt;All elements (or “items”) sit on the same line, i.e. the items can have something on either their left or right.&lt;/li&gt;
+  &lt;li&gt;Do not work well with elements that are naturally blocks, like “p”, or paragraph.&lt;/li&gt;
+  &lt;li&gt;Would be useful for creating a horizontal navigation bar or perhaps a header or footer.&lt;/li&gt;
+  &lt;li&gt;Below is an example of two divs with the position of inline, each of which has the same width and height parameters as the third div. The third div has a position of inline-block and is set to 100px by 100px.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/Example-2.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;inline-block&quot;&gt;Inline-Block&lt;/h3&gt;
+
+&lt;h4 id=&quot;inline-block-elements-have-the-following-qualities&quot;&gt;Inline-block elements have the following qualities:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Like blocks, they accept height and width parameters.&lt;/li&gt;
+  &lt;li&gt;Unlike when using float, allows items to sit in parent container without issues (i.e. avoids overlap issues).&lt;/li&gt;
+  &lt;li&gt;Would be useful for creating columns or for four-sided objects.&lt;/li&gt;
+  &lt;li&gt;Below is an example with three different cubes (100px by 100px), each set to inline-block. Note that they’re able to sit side-by-side with each other. However, also note the small margins that exist. Those are a drawback of using inline-blocks as they can make formatting a page difficult. They can be remedied by placing the html elements without any spaces/returns separating them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tonytino.github.io/imgs/Example-1.png&quot; alt=&quot;inlineExample&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Mar 2015 00:00:00 -0800</pubDate>
+        <link>http://tonytino.github.io/technical/2015/03/08/css-design.html</link>
+        <guid isPermaLink="true">http://tonytino.github.io/technical/2015/03/08/css-design.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+  </channel>
+</rss>
