@@ -1,23 +1,224 @@
----
-layout: default
----
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="home">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/foundation.css" rel="stylesheet" media="screen">
+        <link href="css/foundation-icons/foundation-icons.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="css/main.css">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <!-- Modernizr Removed from Boiler Plate - Already Included in Foundation 5 -->
+        <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
 
-</div>
+        <!-- Modernizer -->
+        <script src="js/vendor/modernizr.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Top Bar -->
+        <header class="contain-to-grid fixed">
+            <nav class="top-bar" data-topbar>
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="#">Anthony Hernandez</a></h1>
+                    </li>
+                    <li class="toggle-topbar menu-icon">
+                        <a href="#"><span></span></a>
+                    </li>
+                </ul>
+                <section class="top-bar-section">
+                    <ul class="right">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </header><!-- End Top Bar -->
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- PORTFOLIO -->
+            <section id="portfolio">
+
+                <h2 class="lead">My Portfolio</h2>
+
+                <!-- Projects 1 -->
+                <div class="row">
+                    <div class="medium-4 column">
+                        <h3 class="lead">Verbous.ly</h3>
+                        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
+                    </div>
+                    <div class="medium-4 column">
+                        <h3 class="lead">Remake of Restaurant Website</h3>
+                        <p>Chambray twee tofu biodiesel gluten-free. Cardigan sustainable craft beer dreamcatcher Truffaut. You probably haven't heard of them paleo Pinterest Neutra forage. Pop-up messenger bag taxidermy selvage, seitan actually scenester Truffaut synth keytar single-origin coffee meggings photo booth letterpress. YOLO cliche deep v Pitchfork butcher organic. Health goth master cleanse shabby chic, taxidermy Wes Anderson kale chips cred. Distillery slow-carb chillwave shabby chic, McSweeney's normcore Kickstarter meh cliche art party Williamsburg gentrify blog synth.</p>
+                    </div>
+                    <div class="medium-4 column">
+                        <h3 class="lead">Construction Website</h3>
+                        <p>Chase keelhaul quarter nipper mizzen run a rig deadlights Corsair tackle scuttle. Run a shot across the bow bilge water long boat square-rigged jack loot list poop deck cable bilge. Sutler mutiny Brethren of the Coast cable to go on account fluke spyglass belay cog code of conduct.</p>
+                    </div>
+                </div><!-- End Projects Row 1 -->
+
+                <!-- Projects 2 -->
+                <div class="row">
+                    <div class="medium-4 column">
+                        <h3 class="lead">Trendasaur (Trend-Consumer)</h3>
+                        <p>User visits site, splash page has search bar and two buttons (search and random). Result will update the page with photos from the location they searched, including a background image of a huge building (ex. Taj Mahal). Later, includes videos, blog posts, reddits, etc.</p>
+                    </div>
+                    <div class="medium-4 column">
+                        <h3 class="lead">Code a Dribbble Design (Give Credit!)</h3>
+                        <p>Chambray twee tofu biodiesel gluten-free. Cardigan sustainable craft beer dreamcatcher Truffaut. You probably haven't heard of them paleo Pinterest Neutra forage. Pop-up messenger bag taxidermy selvage, seitan actually scenester Truffaut synth keytar single-origin coffee meggings photo booth letterpress. YOLO cliche deep v Pitchfork butcher organic. Health goth master cleanse shabby chic, taxidermy Wes Anderson kale chips cred. Distillery slow-carb chillwave shabby chic, McSweeney's normcore Kickstarter meh cliche art party Williamsburg gentrify blog synth.</p>
+                    </div>
+                    <div class="medium-4 column">
+                        <h3 class="lead">User Interface Portion (Sign Up Flow)</h3>
+                        <p>Chase keelhaul quarter nipper mizzen run a rig deadlights Corsair tackle scuttle. Run a shot across the bow bilge water long boat square-rigged jack loot list poop deck cable bilge. Sutler mutiny Brethren of the Coast cable to go on account fluke spyglass belay cog code of conduct.</p>
+                    </div>
+                </div><!-- End Projects Row 2 -->
+
+            </section><!-- END PORTFOLIO -->
+
+            <hr>
+
+            <!-- ABOUT -->
+            <section id="about">
+
+                <h2 class="lead">About Anthony</h2>
+                <!-- About Me -->
+                <div class="row">
+                    <div class="medium-6 column">
+                        <h3 class="lead">Who Is Anthony Hernandez?</h3>
+                        <p>Chambray twee tofu biodiesel gluten-free. Cardigan sustainable craft beer dreamcatcher Truffaut. You probably haven't heard of them paleo Pinterest Neutra forage. Pop-up messenger bag taxidermy selvage, seitan actually scenester Truffaut synth keytar single-origin coffee meggings photo booth letterpress. YOLO cliche deep v Pitchfork butcher organic. Health goth master cleanse shabby chic, taxidermy Wes Anderson kale chips cred. Distillery slow-carb chillwave shabby chic, McSweeney's normcore Kickstarter meh cliche art party Williamsburg gentrify blog synth.</p>
+                    </div>
+
+                    <div class="medium-6 column">
+                        <h3 class="lead">What Does He Do?</h3>
+                        <p>Chambray twee tofu biodiesel gluten-free. Cardigan sustainable craft beer dreamcatcher Truffaut. You probably haven't heard of them paleo Pinterest Neutra forage. Pop-up messenger bag taxidermy selvage, seitan actually scenester Truffaut synth keytar single-origin coffee meggings photo booth letterpress. YOLO cliche deep v Pitchfork butcher organic. Health goth master cleanse shabby chic, taxidermy Wes Anderson kale chips cred. Distillery slow-carb chillwave shabby chic, McSweeney's normcore Kickstarter meh cliche art party Williamsburg gentrify blog synth.</p>
+                    </div>
+                </div><!-- End About Me Row -->
+
+                <h2 class="lead">Working With Anthony</h2>
+                <h3 class="lead">Pair Programming Feedback</h3>
+
+                <!-- Pair-Programming Feedback 1 -->
+                <div class="row">
+                    <div class="medium-4 column">
+                        <i class="fi-quote black-icon"></i>
+                        <h3 class="lead">Samuel L. Jackson</h3>
+                        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
+                    </div>
+                    <div class="medium-4 column">
+                        <i class="fi-quote black-icon"></i>
+                        <h3 class="lead">Hip Is the Sterling</h3>
+                        <p>Chambray twee tofu biodiesel gluten-free. Cardigan sustainable craft beer dreamcatcher Truffaut. You probably haven't heard of them paleo Pinterest Neutra forage. Pop-up messenger bag taxidermy selvage, seitan actually scenester Truffaut synth keytar single-origin coffee meggings photo booth letterpress. YOLO cliche deep v Pitchfork butcher organic. Health goth master cleanse shabby chic, taxidermy Wes Anderson kale chips cred. Distillery slow-carb chillwave shabby chic, McSweeney's normcore Kickstarter meh cliche art party Williamsburg gentrify blog synth.</p>
+                    </div>
+                    <div class="medium-4 column">
+                        <i class="fi-quote black-icon"></i>
+                        <h3 class="lead">YARRRR! Pirate's Life For Me!</h3>
+                        <p>Chase keelhaul quarter nipper mizzen run a rig deadlights Corsair tackle scuttle. Run a shot across the bow bilge water long boat square-rigged jack loot list poop deck cable bilge. Sutler mutiny Brethren of the Coast cable to go on account fluke spyglass belay cog code of conduct.</p>
+                    </div>
+                </div><!-- End Pair-Programming Feedback Row 1 -->
+
+                <!-- Pair-Programming Feedback 2 -->
+                <div class="row">
+                    <div class="medium-4 column">
+                        <i class="fi-quote black-icon"></i>
+                        <h3 class="lead">Samuel L. Jackson</h3>
+                        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
+                    </div>
+                    <div class="medium-4 column">
+                        <i class="fi-quote black-icon"></i>
+                        <h3 class="lead">Hip Is the Sterling</h3>
+                        <p>Chambray twee tofu biodiesel gluten-free. Cardigan sustainable craft beer dreamcatcher Truffaut. You probably haven't heard of them paleo Pinterest Neutra forage. Pop-up messenger bag taxidermy selvage, seitan actually scenester Truffaut synth keytar single-origin coffee meggings photo booth letterpress. YOLO cliche deep v Pitchfork butcher organic. Health goth master cleanse shabby chic, taxidermy Wes Anderson kale chips cred. Distillery slow-carb chillwave shabby chic, McSweeney's normcore Kickstarter meh cliche art party Williamsburg gentrify blog synth.</p>
+                    </div>
+                    <div class="medium-4 column">
+                        <i class="fi-quote black-icon"></i>
+                        <h3 class="lead">YARRRR! Pirate's Life For Me!</h3>
+                        <p>Chase keelhaul quarter nipper mizzen run a rig deadlights Corsair tackle scuttle. Run a shot across the bow bilge water long boat square-rigged jack loot list poop deck cable bilge. Sutler mutiny Brethren of the Coast cable to go on account fluke spyglass belay cog code of conduct.</p>
+                    </div>
+                </div><!-- End Pair-Programming Feedback Row 2 -->
+
+            </section><!-- END ABOUT -->
+
+            <hr>
+
+            <!-- CONTACT -->
+            <section id="contact">
+                <h2 class="lead">Contact Anthony</h2>
+
+                <!-- Contact Icons -->
+                <div class"row">
+                    <div class="medium-12 columns">
+                        <a class="item contact-icon" role="button" tabindex="0">
+                            <i class="fi-mail"></i>
+                            <label>Mail</label>
+                        </a>
+                        <a class="item contact-icon" role="button" tabindex="0">
+                            <i class="fi-social-github"></i>
+                            <label>GitHub</label>
+                        </a>
+                        <a class="item contact-icon" role="button" tabindex="0">
+                            <i class="fi-social-linkedin"></i>
+                            <label>LinkedIn</label>
+                        </a>
+                        <a class="item contact-icon" role="button" tabindex="0">
+                            <i class="fi-social-twitter"></i>
+                            <label>Twitter</label>
+                        </a>
+                    </div><!-- End Contact Icons Nav -->
+                </div>
+            </section><!-- END CONTACT -->
+
+
+        </div><!-- End Container -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Boilerplate jQuery Removed - Included in Foundation -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Load Foundation -->
+        <script src="js/vendor/foundation.min.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            // (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            // function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            // e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            // e.src='https://www.google-analytics.com/analytics.js';
+            // r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            // ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
